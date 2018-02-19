@@ -1,0 +1,26 @@
+@import url(color.less);
+
+#header {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background-color: @title-background-color;
+	.logo {
+		position: absolute;
+		left: 10px;
+		top: 50%;
+		transform:translateY(-50%);
+		img {
+			height: 28px;
+		}
+	}
+	.app {
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform:translateY(-50%);
+		img {
+			height: 28px;
+		}
+	}
+}
